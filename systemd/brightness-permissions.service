@@ -1,0 +1,10 @@
+[Unit]
+Description=Enable write permissions for all users to change brightness
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/chmod o+w /sys/class/backlight/intel_backlight/brightness
+RemainAfterExit=yes
+
+[Install]
+WantedBy=graphical.target
