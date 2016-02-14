@@ -1,0 +1,5 @@
+https://www.freedesktop.org/software/systemd/man/tmpfiles.d.html
+add tmpfile intead of systemd script for change permission of brightness
+https://bbs.archlinux.org/viewtopic.php?pid=1297313#p1297313
+
+add management script for dotfiles
