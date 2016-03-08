@@ -166,8 +166,8 @@ exec --no-startup-id udiskie --use-udisks2 --smart-tray --automount --no-notify 
 #exec --no-startup-id compton --vsync opengl -b
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +10% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -10% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 bindsym XF86MonBrightnessUp exec --no-startup-id $HOME/dotfiles/scripts/backlight.fish up # increase screen brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id $HOME/dotfiles/scripts/backlight.fish down # decrease screen brightness
