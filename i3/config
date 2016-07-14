@@ -164,6 +164,7 @@ focus_follows_mouse no
 #autorun
 exec --no-startup-id udiskie --use-udisks2 --smart-tray --automount --no-notify &
 #exec --no-startup-id compton --vsync opengl -b
+exec --no-startup-id xss-lock -- i3lock &
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +10% #increase sound volume
